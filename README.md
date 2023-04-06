@@ -82,9 +82,11 @@ Please see the [CONTRIBUTING.md](CONTRIBUTING.md) for some details on contributi
 *This has been tested on Debian-based systems (Ubuntu, Linux Mint). Other distros may require extra configuration.*
 
 1. Make sure you have Python 3.9 installed on your system.
-2. Navigate to the root folder and in your terminal, run ``python3 build.py``. This will begin a process to install all of the neccesary libraries and will give you the option to create a standalone executable or just run the code with Python.
+2. Make sure brew is installed on your system: https://brew.sh _**(Remember to add brew to you path, it will give you two commands to run after you install it)**_
+4. Navigate to the root folder and in your terminal, run ``python3 build.py``. This will begin a process to install all of the neccesary libraries and will give you the option to create a standalone executable or just run the code with Python. This process will take several minutes to complete depending on your machine.
 
 ## macOS
 
 1. Make sure you have Python 3.8 or 3.9 installed on your system.
-2. Navigate to the root folder and in your terminal, run ``python3 build.py``. This will install all of the neccesary libraries and will give you the option to create a standalone executable or just run the code with Python.
+2. Make sure brew is installed on your system: https://brew.sh _**(Remember to add brew to you path, it will give you two commands to run after you install it)**_
+3. Navigate to the root folder and in your terminal, run ``python3 build.py``. This will install all of the neccesary libraries and will give you the option to create a standalone executable or just run the code with Python. This process will take several minutes to complete depending on your machine.
